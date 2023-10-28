@@ -1,0 +1,58 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: rgb(162, 239, 239);
+    border: 2px solid black;
+}
+
+h1, h2 {
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+    border: 2px solid black;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.accordion-header {
+    cursor: pointer;
+    background-color: #ace7ee;
+    padding: 10px;
+    border: 1px solid #f3a5a5;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+    border: 1px solid #f39999;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.tabs li {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(252, 214, 167);
+}
+
+.tab-content {
+    display: none;
+    text-align: center;
+}
+
+.tab-content img {
+    max-width: 100%;
+}
